@@ -1,5 +1,7 @@
 # Stock and News Network Explorer
 
+[![CI](https://github.com/Titus-Z/stock-news-network-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/Titus-Z/stock-news-network-explorer/actions/workflows/ci.yml)
+
 A graph-based market research application that connects stocks, sectors, and
 news topics. It supports local data ingestion, correlation-based graph
 construction, shortest-path and centrality analysis, interactive Streamlit
@@ -8,6 +10,10 @@ views, and optional structured LLM enrichment.
 > Portfolio note: the repository ships with a tiny **synthetic** dataset for a
 > deterministic demo. It contains no vendor data and must not be used for
 > investment decisions.
+
+| Analysis dashboard | Interactive graph explorer |
+| --- | --- |
+| ![Analysis dashboard running on synthetic data](docs/assets/analysis-dashboard.jpg) | ![Interactive stock, sector, and topic graph](docs/assets/graph-explorer.jpg) |
 
 ## What this demonstrates
 
@@ -103,6 +109,7 @@ data/demo/                   synthetic, redistribution-safe demo data
 ```bash
 python -m compileall -q .
 pytest -q
+python scripts/check_demo.py
 ```
 
 CI runs those checks on supported Python versions. Historical local results are
