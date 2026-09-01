@@ -1,0 +1,76 @@
+{
+  "items": "4",
+  "generated_at": "2026-01-15T12:00:00",
+  "data_notice": "Fully synthetic demo content; real ticker symbols are labels only.",
+  "feed": [
+    {
+      "title": "Synthetic demo: device demand outlook improves",
+      "url": "https://example.invalid/demo/device-demand",
+      "time_published": "20260115T100000",
+      "source": "Synthetic Demo",
+      "summary": "Fabricated article used only to exercise the graph pipeline.",
+      "overall_sentiment_score": "0.25",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {"ticker": "AAPL", "relevance_score": "0.90", "ticker_sentiment_score": "0.30", "ticker_sentiment_label": "Somewhat-Bullish"},
+        {"ticker": "NVDA", "relevance_score": "0.55", "ticker_sentiment_score": "0.18", "ticker_sentiment_label": "Somewhat-Bullish"}
+      ],
+      "topics": [
+        {"topic": "technology", "relevance_score": "0.90"},
+        {"topic": "earnings", "relevance_score": "0.50"}
+      ]
+    },
+    {
+      "title": "Synthetic demo: cloud spending remains steady",
+      "url": "https://example.invalid/demo/cloud-spending",
+      "time_published": "20260114T140000",
+      "source": "Synthetic Demo",
+      "summary": "Fabricated article used only to exercise the graph pipeline.",
+      "overall_sentiment_score": "0.12",
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {"ticker": "MSFT", "relevance_score": "0.95", "ticker_sentiment_score": "0.20", "ticker_sentiment_label": "Somewhat-Bullish"},
+        {"ticker": "NVDA", "relevance_score": "0.45", "ticker_sentiment_score": "0.10", "ticker_sentiment_label": "Neutral"}
+      ],
+      "topics": [
+        {"topic": "technology", "relevance_score": "0.85"},
+        {"topic": "economy_macro", "relevance_score": "0.35"}
+      ]
+    },
+    {
+      "title": "Synthetic demo: supply constraints ease",
+      "url": "https://example.invalid/demo/supply-constraints",
+      "time_published": "20260113T090000",
+      "source": "Synthetic Demo",
+      "summary": "Fabricated article used only to exercise the graph pipeline.",
+      "overall_sentiment_score": "0.08",
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {"ticker": "AAPL", "relevance_score": "0.70", "ticker_sentiment_score": "0.08", "ticker_sentiment_label": "Neutral"},
+        {"ticker": "MSFT", "relevance_score": "0.20", "ticker_sentiment_score": "0.02", "ticker_sentiment_label": "Neutral"},
+        {"ticker": "NVDA", "relevance_score": "0.80", "ticker_sentiment_score": "0.12", "ticker_sentiment_label": "Neutral"}
+      ],
+      "topics": [
+        {"topic": "technology", "relevance_score": "0.75"},
+        {"topic": "manufacturing", "relevance_score": "0.70"}
+      ]
+    },
+    {
+      "title": "Synthetic demo: investors weigh product-cycle risk",
+      "url": "https://example.invalid/demo/product-cycle-risk",
+      "time_published": "20260112T160000",
+      "source": "Synthetic Demo",
+      "summary": "Fabricated article used only to exercise the graph pipeline.",
+      "overall_sentiment_score": "-0.10",
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {"ticker": "AAPL", "relevance_score": "0.65", "ticker_sentiment_score": "-0.12", "ticker_sentiment_label": "Neutral"},
+        {"ticker": "MSFT", "relevance_score": "0.40", "ticker_sentiment_score": "-0.05", "ticker_sentiment_label": "Neutral"}
+      ],
+      "topics": [
+        {"topic": "financial_markets", "relevance_score": "0.60"},
+        {"topic": "technology", "relevance_score": "0.55"}
+      ]
+    }
+  ]
+}

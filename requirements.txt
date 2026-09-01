@@ -1,0 +1,8 @@
+streamlit>=1.40,<2
+pandas>=2.1,<3
+requests>=2.31,<3
+networkx>=3.2,<4
+yfinance>=0.2.40,<1
+openai>=1.50,<2
+pydantic>=2.7,<3
+pyvis>=0.3.2,<1
